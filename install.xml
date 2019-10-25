@@ -523,10 +523,9 @@
     <operation>
       <search><![CDATA[</head>]]></search>
       <add position="before"><![CDATA[
-        <script type="text/javascript">
+        <script>
           function facebook_loadScript(url, callback) {
             var script = document.createElement("script");
-            script.type = "text/javascript";
             if(script.readyState) {  // only required for IE <9
               script.onreadystatechange = function() {
                 if (script.readyState === "loaded" || script.readyState === "complete") {
@@ -547,7 +546,7 @@
           }
         </script>
 
-        <script type="text/javascript">
+        <script>
           (function() {
             var enableCookieBar = '<?= $facebook_enable_cookie_bar ?>';
             if (enableCookieBar === 'true') {
@@ -607,7 +606,7 @@
           })();
         </script>
 
-        <script type="text/javascript">
+        <script>
           (function() {
             !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
             n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
@@ -709,10 +708,9 @@
     <operation>
       <search><![CDATA[</head>]]></search>
       <add position="before"><![CDATA[
-        <script type="text/javascript">
+        <script>
           function facebook_loadScript(url, callback) {
             var script = document.createElement("script");
-            script.type = "text/javascript";
             if(script.readyState) {  // only required for IE <9
               script.onreadystatechange = function() {
                 if (script.readyState === "loaded" || script.readyState === "complete") {
@@ -733,7 +731,7 @@
           }
         </script>
 
-        <script type="text/javascript">
+        <script>
           (function() {
             var enableCookieBar = '{{ facebook_enable_cookie_bar }}';
             if (enableCookieBar === 'true') {
@@ -793,7 +791,7 @@
           })();
         </script>
 
-        <script type="text/javascript">
+        <script>
           (function() {
             !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
             n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
