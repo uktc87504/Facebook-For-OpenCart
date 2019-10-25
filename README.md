@@ -11,6 +11,8 @@ Source code for Facebook Ads Extension for OpenCart. This is for
 OpenCart v2.0.1.1 to v3.0.3.1.
 
 # Features:
+0. Преобразува BGN в EUR преди да подаде към Facebook. Временен фикс докато добавят BGN във валутите. Или докато минем на Евро.
+
 1. Auto-injection of Facebook Pixel events to all store webpages in
    traditional/response web design. Pixel events fired include:
    - PageView
